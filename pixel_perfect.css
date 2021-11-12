@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #f5f3f4;
+}
+
+.navigation{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+}
+
+.nav_item{
+    margin: 0px 24px;
+    list-style: none;
+    color: #12100Cb3;
+}
+
+.nav_btn{
+    background-color: #12100C;
+    border-radius: 12px;
+    color: #f9f9f9;
+    padding: 6px 23px;
+    border: none;
+}
+
+.navigation_logo >img{
+    width: 131px;
+}
+
+.nav_collection{
+    display: flex;
+}
+
+.banner{
+    width: 100%;
+    height: 652px;
+    /* background-color: blue; */
+    margin-top: 52px;
+    display: flex;
+    padding: 0px 65px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    padding: 0px 65px;
+}
+
+.banner_text{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+
+.banner_img{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+
+.banner_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_text >h1{
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 88px;
+/* identical to box height, or 110% */
+
+
+color: #12100C;
+
+}
+
+.banner_text >p{
+    margin-top: 38px;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 32px;
+/* identical to box height, or 139% */
+
+
+color: rgba(18, 16, 12, 0.7);
+}
+
+.banner_calltoact{
+    margin-top: 48px;
+  display: flex;
+  align-items: center;  
+}
+
+.banner_calltoact >button{
+    background: #FFAE33;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+padding: 12px 46px;
+border: none;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #12100C;
+}
+
+.banner_calltoact >p{
+    font-style: normal;
+    margin-left: 28px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: rgba(18, 16, 12, 0.7);
+}
+
+.banner_collection{
+    display: flex;
+    list-style: none;
+    margin-top: 18px;
+}
+
+.banner_item{
+    margin-right: 28px;
+}
+
+.banner_img{
+    display: flex;
+    justify-content: flex-end;
+}
